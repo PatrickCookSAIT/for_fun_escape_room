@@ -9,9 +9,20 @@ function BeginButton(){
     };
 
   return (
-    <button onClick={handleClick}>
-        BEGIN
-    </button>
+    <div className="flex w-full h-full items-center justify-center bg-blue-100">
+      <button
+        onClick={handleClick}
+        className="group w-24 h-12 bg-black text-white rounded-full flex items-center justify-center"
+      >
+        {/* Normal text */}
+        <p className="group-hover:hidden">BEGIN</p>
+
+        {/* Hover text */}
+        <p className="hidden group-hover:block text-white">
+          💀
+        </p>
+      </button>
+    </div>
   );
 }
 
