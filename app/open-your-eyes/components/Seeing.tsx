@@ -6,7 +6,7 @@ import {useRouter} from "next/navigation";
 function Seeing(){
     const router= useRouter();
     const handleClick = () => {
-        router.push("/open-your-eyes");
+        router.push("/first-lock");
     };
 
   return (

@@ -1,13 +1,12 @@
 import Image from "next/image";
-import WallSelect from "./components/wall-select";
+import FirstLock from "./components/first-lock";
 
 export default function Home() {
   return (
     <div>
       <main >
-        <WallSelect />
+        <FirstLock />
       </main>
     </div>
   );
 }
-
