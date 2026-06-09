@@ -10,4 +10,8 @@ export default (phase) => {
     assetPrefix: isDev ? undefined : 'https://cdn.mydomain.com',
   }
   return nextConfig
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b68855249e1700a419632fd175f8c0848e05916d
