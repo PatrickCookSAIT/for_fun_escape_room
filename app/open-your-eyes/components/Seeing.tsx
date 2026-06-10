@@ -21,7 +21,7 @@ function Seeing(){
         <Image src="/images/blur.jpg" alt="blur" width={500} height={500} />
       </div>
 
-      <div className="flex items-center justify-center flex-col sm:hidden">
+      <div className="flex items-center justify-center flex-col md:hidden">
         <p className="text-sm text-gray-700">
           Through narrowed slits your vision focuses. You see the door with a keypad lock
         </p>
