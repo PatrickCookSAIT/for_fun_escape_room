@@ -9,7 +9,7 @@ function BeginButton(){
     };
 
   return (
-    <div className="flex w-full h-full items-center justify-center bg-blue-100">
+    <div className="flex w-full h-full items-center justify-center">
       <button
         onClick={handleClick}
         className="group w-24 h-12 bg-black text-white rounded-full flex items-center justify-center"
