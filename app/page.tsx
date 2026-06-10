@@ -3,9 +3,9 @@ import BeginButton from "./components/BeginButton";
 
 export default function Home() {
   return (
-      <main className="flex justify-center flex-col items-center bg-gray-200">
+      <main className="flex justify-center flex-col items-center bg-gray-200 min-h-screen">
         <div className="mb-5">
-          <Image src="https://media.istockphoto.com/id/2181988818/photo/woman-walking-with-her-suitcase-on-the-street-in-new-york-at-night.jpg?s=1024x1024&w=is&k=20&c=Eq7ETg7wV5cqFeYzPRupRuf0CxzmiQuJiz4F9uxlFBo=" alt="steaming street" width={500} height={500}/>
+          <Image src="/images/steamy-street.jpg" alt="steaming street" width={500} height={500}/>
         </div>
         <div className= "w-2xl mb-3">
           <p className="text-sm"> Its late at night as you make your way home. You are out later than normal, seeing the city around you transformed under the darkness of the night. 

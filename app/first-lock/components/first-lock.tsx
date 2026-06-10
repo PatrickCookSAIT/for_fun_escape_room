@@ -34,7 +34,7 @@ const FirstLock = () => {
         {
             setCountTwo(0)
         } else {
-            setCountTwo(countOne + 1)
+            setCountTwo(countTwo + 1)
         }      
     }
      const handleDownTwo = () => {
@@ -79,20 +79,20 @@ const FirstLock = () => {
     }
   return (
     <div className="flex flex-col justify-center items-center">
-        <section className="flex flex-col w-300">
-            <p className="font-bold mb-5">By the lock you find a note:</p>
-            <p className="text-sm text-gray-500 bg-gray-200 flex flex-col">
+        <section className="flex flex-col w-300 px-60">
+            <h2 className="font-bold text-sm mb-2">By the lock you find a note:</h2>
+            <div className="text-xs text-gray-600 bg-gray-200 flex flex-col mb-5">
                 <p>The week has ended in a haze, you've gained a lot in 7 days</p>
-                <p>Today you have four times more as you had the day before. </p>
-                <p>When it began, you had a span measuring 20 more than your two hands.</p>
-                <p>From that day to the next, you gained more by double X</p>
-                <p>X is an amount one greater than, the sum of 23 plus 44 minus 10</p>
+                <p>Today you have four times more than what you had the day before. </p>
+                <p>On the day it all began, you held 11 in both hands</p>
+                <p>From that day to the next, your amount increased by double X</p>
+                <p>X is an amount one greater than the sum of 23 and 44 minus 10</p>
                 <p>And X you have once again, as the amount you had 2 days after it began,</p>
-                <p>From that day, two more days go and pass, then on this day you've got 5 times more than the first, banked and clasped</p>
+                <p>From that day, two more days go and pass then on this day you've 5 times more than the first, banked and clasped</p>
                 <p>To fill the forth day and the fifth, take the second and add the sixth</p>
-                <p>Now that you have all the sums, add them back one by one</p>
+                <p>Now that you have each day's sum, add them back one by one</p>
                 <p>Thats the number you have won, place it in the lock and see it spun</p>
-            </p>
+            </div>
         </section>
         <section className="flex flex-row">
             <section className="flex flex-col m-1">
@@ -118,7 +118,7 @@ const FirstLock = () => {
         </section>
         <button
         onClick={handleClick}
-        className="group w-24 h-12 bg-black text-white rounded-full flex items-center justify-center"
+        className="group w-24 h-12 bg-black text-white rounded-full flex items-center justify-center mt-5"
       >
         {/* Normal text */}
         <p className="group-hover:hidden">UNLOCK</p>

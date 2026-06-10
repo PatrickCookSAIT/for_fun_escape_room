@@ -3,7 +3,7 @@ import FirstLock from "./components/first-lock";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-gray-200">
       <main >
         <FirstLock />
       </main>
