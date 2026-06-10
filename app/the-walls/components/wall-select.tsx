@@ -4,7 +4,7 @@ import { useRouter } from 'next/dist/client/components/navigation'
 const WallSelect = () => {
     const router= useRouter();
     const handleClickLeft = () => {
-        router.push("/open-your-eyes");
+        router.push("/left-wall");
     };
     const handleClickForward = () => {
         router.push("/open-your-eyes");
