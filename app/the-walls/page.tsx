@@ -1,9 +1,8 @@
-import Image from "next/image";
 import WallSelect from "./components/wall-select";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray-200 min-h-screen">
       <main >
         <WallSelect />
       </main>
