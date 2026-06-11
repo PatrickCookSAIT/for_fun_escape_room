@@ -11,7 +11,7 @@ function Seeing(){
 
   return (
     <>
-      <div className="hidden sm:flex items-center justify-center flex-col bg-gray-200 min-h-screen">
+      <div className="hidden sm:flex items-center justify-center flex-col ">
         
 
         <Image src="/images/blur.jpg" alt="blur" width={500} height={500} />
